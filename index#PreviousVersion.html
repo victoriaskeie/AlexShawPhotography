@@ -18,13 +18,6 @@
    margin: 0px;
    padding: 0px;
 }
-    }
-.div {
-	height:100%; 
-	overflow:hidden;
-	margin: o;
-}
-
 .unstyled {
   list-style: none;
   padding: 0;
@@ -140,48 +133,44 @@
   left: 0;
 }
 
-div.fixed {
-    position: fixed;
-    bottom: 30;
-    right: 0;
-    width: 530px;
-    padding: 30px 35px 0px 20px;
-    color: #A7A7A7;
-	font: 400 1.125em "Source Sans Pro", Helvetica, Arial, sans-serif;
+img {
+    opacity: 0.7;
+    filter: alpha(opacity=10); 
+}
+.text{ 
+width:340px; 
+height:217px; 
+background:#000000; 
+opacity:0; 
+}
+ 
+img:hover {
+	background-image: URL(watermark.jpg);
+    opacity: 1.0;
+    filter: alpha(opacity=40);
+    text-align: left;
+    
 }
 
-.img {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding: 0px 0px 0px 0px;
-	overflow: hidden;
+.div-class-text {
+	opacity:0;
 	
-}
 
     </style>
 
-  
+    
         <script src="js/prefixfree.min.js"></script>
 
     
   </head>
 
   <body style="overflow:hidden;">
-  <p>
-  <p>
- 
+<img src="ASP_homepage_image3.jpg" img align="right" img height="664px" img width="1100px">
+<img src="watermark.jpg" img align="right" img height="664px" img width="1100px" img display="invisble">
 
-<div style="clear: position; fixed:">
-    <p style="float: left;"><img src="testimonials.jpg" height="710" width="700""></p>
-    <div class="fixed">
-   <center> <p><h1>Testimonals</h1></p>
-<break><break><p></p><i>"Alex did my portrait, and not only were the photos beautiful,<p></p> but she was amazing to work with!" <p></p>
-- Victoria </i>    
-<br>
 
-</center>
-</div>
-</div>
+
+
 
     <header class="header" role="banner">
   <h1 class="logo">
@@ -197,21 +186,17 @@ div.fixed {
       </ul>
     </nav>
     <ul class="social-links list-inline unstyled list-hover-slide">
-      <li><a href="#">Facebook</a></li>
-      <li><a href="#">Instagram</a></li>
-      <li><a href="#">Tumblr</a></li>
-      <li><a href="#">LinkedIn</a></li>
-   <li><a href="#"></a></li>
+      <li><a href="https://www.facebook.com/AlexandraShawPhotography/timeline">Facebook</a></li>
+      <li><a href="https://instagram.com/5alexshaw/">Instagram</a></li>
+      <li><a href="http://5alexshaw.tumblr.com">Tumblr</a></li>
+   <li><a href="#">LinkedIn</a></li>
     </ul>
   </div>
 </header>
     <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
     
-      
-
-
-
     
-  </body></div>
+    
+  </body>
 </html>
